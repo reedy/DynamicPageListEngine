@@ -38,4 +38,3 @@ implements DpleFeatureInterface {
 			array( 'page_id = $table.il_from', '$table.il_to = $dbkey' ) );
 	}
 }
-?>

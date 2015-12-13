@@ -51,4 +51,3 @@ implements DpleFeatureInterface {
 		}
 	}
 }
-?>

@@ -41,4 +41,3 @@ implements DpleFeatureInterface {
 				'$table.pl_title = $dbkey' ) );
 	}
 }
-?>

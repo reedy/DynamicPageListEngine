@@ -179,4 +179,3 @@ class DpleQuery implements Countable {
 			$this->options_, $this->joinConds_ );
 	}
 }
-?>

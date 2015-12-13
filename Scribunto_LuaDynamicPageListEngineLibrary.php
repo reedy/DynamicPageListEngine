@@ -138,4 +138,3 @@ extends Scribunto_LuaLibraryBase {
 		return $this->getPages( $params, 'toPagenames' );
 	}
 }
-?>

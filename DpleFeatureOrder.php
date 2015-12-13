@@ -232,4 +232,3 @@ implements DpleFeatureInterface {
 		$query->setOption( 'ORDER BY', "$sqlSort $this->sqlOrder_" );
 	}
 }
-?>

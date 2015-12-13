@@ -40,4 +40,3 @@ implements DpleFeatureInterface {
 				'$table.il_from = $id' ) );
 	}
 }
-?>

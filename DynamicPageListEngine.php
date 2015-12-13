@@ -285,5 +285,3 @@ $wgMessagesDirs['DynamicPageListEngine'] = __DIR__ . '/i18n';
  */
 $wgExtensionMessagesFiles['DynamicPageListEngine'] =
 	__DIR__ . '/DynamicPageListEngine.i18n.php';
-?>
-

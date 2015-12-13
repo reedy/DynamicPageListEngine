@@ -222,4 +222,3 @@ class DpleFeatureLinksBase extends DpleFeatureBase {
 			$this->joinConds_ );
 	}
 }
-?>

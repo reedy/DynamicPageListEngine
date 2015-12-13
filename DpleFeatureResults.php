@@ -252,4 +252,3 @@ implements DpleFeatureInterface {
 		return $this->arrays_;
 	}
 }
-?>

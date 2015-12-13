@@ -38,4 +38,3 @@ implements DpleFeatureInterface {
 				'$table.tl_from = $id' ) );
 	}
 }
-?>

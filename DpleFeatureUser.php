@@ -262,4 +262,3 @@ implements DpleFeatureInterface {
 		return ' IN (' . implode( ',', $list ) . ')';
 	}
 }
-?>

@@ -134,4 +134,3 @@ implements DpleFeatureInterface {
 		$query->setOption( 'LIMIT', $this->count_ );
 	}
 }
-?>

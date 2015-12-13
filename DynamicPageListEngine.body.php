@@ -145,4 +145,4 @@ class DynamicPageListEngine implements Countable {
 			$this->query_->getResult() );
 	}
 }
-?>
+

@@ -59,4 +59,3 @@ interface DpleFeatureInterface {
 	 */
 	public function getResultConverters();
 }
-?>
