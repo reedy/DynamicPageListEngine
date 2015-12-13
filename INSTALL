@@ -1,0 +1,9 @@
+<!-- 
+     page taken from 
+     http://www.mediawiki.org/wiki/Extension:DynamicPageListEngine/Installation
+-->  
+== Installation ==
+{{ExtensionInstall
+|download-link=[http://sourceforge.net/projects/mwdatatable/files/DynamicPageListEngine-1.0.0.zip/download Download]}}
+
+Even though this extension has been tested on MediaWiki 1.23 only, it is likely to work on slightly earlier versions as well.

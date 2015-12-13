@@ -1,0 +1,19 @@
+<!-- 
+     page taken from 
+     http://www.mediawiki.org/wiki/Extension:DynamicPageListEngine/History
+-->
+== Version 0.3 ==
+
+=== Modified features ===
+
+* In [[{{NAMESPACE}}:{{BASEPAGENAME}}#Category|DynamicPageListEngineFeatureCategory]], the column for the timstamp of addition to the first category is now aliased as <code>cl_timestamp</code>. This does not change anything unless you directly use <code>DynamicPageListEngineQuery::getResult()</code>.
+
+=== New features ===
+
+* In [[{{NAMESPACE}}:{{BASEPAGENAME}}#Category|DynamicPageListEngineFeatureContains]], the column for the timstamp of addition of the first specified page to the category is now selected as well and aliased as <code>clx_timestamp</code>. It is available in [[{{NAMESPACE}}:{{BASEPAGENAME}}#Results|DynamicPageListEngineFeatureResults]] as <code>categoryaddx</code>. You can also use it in the <code>ordermethod</code> parameter.
+
+* The new class [[{{NAMESPACE}}:{{BASEPAGENAME}}#Extrax|DynamicPageListEngineFeatureExtrax]] does for [[{{NAMESPACE}}:{{BASEPAGENAME}}#Category|DynamicPageListEngineFeatureContains]] what [[{{NAMESPACE}}:{{BASEPAGENAME}}#Extrax|DynamicPageListEngineFeatureExtra]] does for [[{{NAMESPACE}}:{{BASEPAGENAME}}#Category|DynamicPageListEngineFeatureCategory]].
+
+== Version 0.2 ==
+
+This is the first version that has been published.

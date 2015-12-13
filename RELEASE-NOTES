@@ -1,0 +1,28 @@
+<!-- 
+     page taken from 
+     http://www.mediawiki.org/wiki/Extension:DynamicPageListEngine/Release_notes
+-->  
+== Release notes ==
+
+These are the release notes for version 1.0.0. See [[{{NAMESPACE}}:{{BASEPAGENAME}}/History]] for older releases.
+
+=== Configuration changes ===
+
+* Configuration parameter names have been shortened.
+* Messages have been widely renamed.
+* The messages are now stored in the [[mw:Localisation file format|new JSON format]].
+
+=== New features ===
+
+* Pages using the functions in the Lua interface are now added to the tracking category named by the message <code>dple-tracking-category</code>.
+* An interface class DpleFeatureInterface is provided to facilitate the development of new features.
+
+=== Languages updated ===
+
+* Support was added for French (fr).
+* Support was added for Italian (it).
+
+=== Other changes ===
+
+* Filenames and class names have been shortened.
+* The functions in the Lua interface are now marked as expensive.
