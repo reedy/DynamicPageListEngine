@@ -1,8 +1,8 @@
 {
     "@metadata": {
-	"authors": [
-	    "RV1971"
-	]
+        "authors": [
+            "RV1971"
+        ]
     },
     "dynamicpagelistengine-desc": "Implementa liste di pagine create dinamicamente in base a criteri di selezione configurabili ed estensibili; le liste possono essere utilizzate da moduli creati con l'estensione [https://www.mediawiki.org/wiki/Extension:Scribunto Scribunto] o da altre estensioni",
     "dple-tracking-category": "Pagine che utilizzano DynamicPageListEngine",
