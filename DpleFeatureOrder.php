@@ -102,7 +102,7 @@ implements DpleFeatureInterface {
 	 *
 	 * @param null|string $param Parameter value.
 	 *
-	 * @return *string* `ascending|descending`.
+	 * @return string `ascending|descending`.
 	 */
 	public function parseOrder( $param ) {
 		switch ( $param ) {
@@ -121,7 +121,7 @@ implements DpleFeatureInterface {
 	 *
 	 * @param null|string $param Parameter value.
 	 *
-	 * @return *string* Order method.
+	 * @return string Order method.
 	 */
 	public function parseOrdermethod( $param ) {
 		$categoryFeature = $this->getFeature( 'DpleFeatureCategory' );

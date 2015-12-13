@@ -52,7 +52,7 @@ interface DpleFeatureInterface {
 	 * @brief Return the names of the result converters defined in a
 	 * class.
 	 *
-	 * @return *array* Array of the names of all methods that can be
+	 * @return array Array of the names of all methods that can be
 	 * used to convert results. Each such method should get one
 	 * parameter of type ResultWrapper and return the result of the
 	 * conversion.

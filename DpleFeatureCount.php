@@ -104,7 +104,7 @@ implements DpleFeatureInterface {
 	 *
 	 * @param int|string $param Parameter value.
 	 *
-	 * @return *int* Count.
+	 * @return int Count.
 	 */
 	public function parse( $param ) {
 		global $wgDpleMaxResultCount;

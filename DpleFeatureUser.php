@@ -250,7 +250,7 @@ implements DpleFeatureInterface {
 	 *
 	 * @param array $users Array of User objects.
 	 *
-	 * @return *string* ' IN (...)' where ... is a list of user IDs.
+	 * @return string ' IN (...)' where ... is a list of user IDs.
 	 */
 	public function buildIn( array $users ) {
 		$list = array();

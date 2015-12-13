@@ -57,7 +57,7 @@ class DpleQuery implements Countable {
 	/**
 	 * @brief Implementation of Countable::count.
 	 *
-	 * return *int* Number of result rows, or 0 if the query has not
+	 * @return int Number of result rows, or 0 if the query has not
 	 * yet been executed.
 	 */
 	public function count() {
@@ -171,7 +171,7 @@ class DpleQuery implements Countable {
 	/**
 	 * @brief Execute the query and store the result in $result_.
 	 *
-	 * @return *ResultWrapper* $result_.
+	 * @return ResultWrapper $result_.
 	 */
 	public function execute( $fname = __METHOD__ ) {
 		return $this->result_ = $this->dbr_->select(

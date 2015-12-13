@@ -58,7 +58,7 @@ implements DpleFeatureInterface {
 	 *
 	 * @param ResultWrapper $result Result of a query.
 	 *
-	 * @return *array* Array of page names.
+	 * @return array Array of page names.
 	 */
 	public function toPagenames( ResultWrapper $result ) {
 		/** Use @ref $pagenames_ if already processed. */
@@ -81,7 +81,7 @@ implements DpleFeatureInterface {
 	 *
 	 * @param ResultWrapper $result Result of a query.
 	 *
-	 * @return *array* Array of full page names.
+	 * @return array Array of full page names.
 	 */
 	public function toFullpagenames( ResultWrapper $result ) {
 		/** Use @ref $fullpagenames_ if already processed. */
@@ -114,7 +114,7 @@ implements DpleFeatureInterface {
 	 * part after the second pipe character (`head of team` in the
 	 * example) as extra information.
 	 *
-	 * @return *array* Array of Title objects.
+	 * @return array Array of Title objects.
 	 */
 	public function toTitles( ResultWrapper $result ) {
 		global $wgDisableCounters;
@@ -202,7 +202,7 @@ implements DpleFeatureInterface {
 	 * languages like Lua where currently it is not possible to return
 	 * a Title object from php to the caller.
 	 *
-	 * @return *array* Array of arrays.
+	 * @return array Array of arrays.
 	 */
 	public function toArrays( ResultWrapper $result ) {
 		/** Use @ref $arrays_ if already created. */
@@ -213,6 +213,9 @@ implements DpleFeatureInterface {
 		/** Otherwise create from result of toTitles(). */
 		$this->arrays_ = array();
 
+		/**
+		 * @var Title $title
+		 */
 		foreach ( $this->toTitles( $result ) as $title ) {
 			/** Extract all those Title properties which are cheap
 			 * (i.e. do not require database access):
@@ -229,7 +232,7 @@ implements DpleFeatureInterface {
 			 * - isRedirect
 			 */
 			$array = array(
-				'id' => $title->getArticleId(),
+				'id' => $title->getArticleID(),
 				'namespace' => $title->getNamespace(),
 				'nsText' => $title->getNsText(),
 				'text' => $title->getText(),

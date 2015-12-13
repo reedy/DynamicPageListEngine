@@ -203,6 +203,7 @@ class DpleFeatureLinksBase extends DpleFeatureBase {
 	 * @param int $n Sequential number of joined table.
 	 *
 	 * @param Title $title Title of page to join with.
+	 * @return string|array
 	 */
 	private function transformJoinConds_( $dbr, $n, Title $title ) {
 		/** Apply the following replacements to the join condition
@@ -216,7 +217,7 @@ class DpleFeatureLinksBase extends DpleFeatureBase {
 			'$table' => "{$this->tableAlias_}$n",
 			'$id' => $title->getArticleID(),
 			'$ns' => $title->getNamespace(),
-			'$dbkey' => $dbr->addQuotes( $title->getDBKey() ) );
+			'$dbkey' => $dbr->addQuotes( $title->getDBkey() ) );
 
 		return str_replace( array_keys( $replace ), array_values( $replace ),
 			$this->joinConds_ );

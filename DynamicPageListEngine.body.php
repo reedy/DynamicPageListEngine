@@ -92,7 +92,7 @@ class DynamicPageListEngine implements Countable {
 	/**
 	 * @brief Implementation of Countable::count.
 	 *
-	 * return *int* Number of result rows, or 0 if the query has not
+	 * return int Number of result rows, or 0 if the query has not
 	 * yet been executed.
 	 */
 	public function count() {
