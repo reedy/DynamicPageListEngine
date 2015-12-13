@@ -213,7 +213,7 @@ $wgExtensionCredits['other'][] =
 		'path' => __FILE__,
 		'name' => 'DynamicPageListEngine',
 		'descriptionmsg' => 'dynamicpagelistengine-desc',
-		'version' => '1.0.0',
+		'version' => '1.0.1',
 		'author' => '[http://www.mediawiki.org/wiki/User:RV1971 RV1971]',
 		'url' => 'http://www.mediawiki.org/wiki/Extension:DynamicPageListEngine'
 	);
